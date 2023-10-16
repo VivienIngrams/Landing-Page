@@ -7,7 +7,6 @@ import Reviews from "./sections/Reviews";
 import Contact from "./sections/Contact";
 import Instagram from "./sections/Instagram";
 
-
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
