@@ -21,7 +21,7 @@ const Navbar: React.FC  = () => {
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-black">
         Tosquias e banhos
       </h2>
       <AiOutlineMenu size={25} color="#4b5563" />
