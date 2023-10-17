@@ -8,7 +8,7 @@ import {TypingText} from "../components/CustomTexts";
 import { HiArrowDown } from "react-icons/hi";
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10 font-normal sm:text-[32px] text-[20px] text-center text-neutral-600 text-secondary-white`}>
+  <section className={`${styles.paddings} relative z-10 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600 text-secondary-white`}>
     <div className=" z-0" />
     <motion.div
       variants={staggerContainer}

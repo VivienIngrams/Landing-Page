@@ -30,7 +30,7 @@ const Navbar: React.FC  = () => {
             className='mb-4 mx-2'
             />
       <h2 className="font-bold text-[24px] leading-[30.24px]">
-        Cuidando os seus cães e gatos
+        Cuidados para os nossos amigos animais
       </h2>
       <HiOutlineMenuAlt3 size={25}  />
       {/* <AiOutlineClose size={25} color="#4b5563" /> */}
