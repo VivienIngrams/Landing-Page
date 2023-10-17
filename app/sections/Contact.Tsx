@@ -1,8 +1,12 @@
 import React from 'react'
+import Maps from '../components/Maps'
 
 const Contact : React.FC = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <h1>Contacto</h1>
+      <Maps />
+    </div>
   )
 }
 

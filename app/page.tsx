@@ -21,7 +21,6 @@ const Page = () => (
     </div>
     <div className="relative">
       <Reviews />
-      <div className="gradient-04 z-0" />
       <Contact/>
     </div>
     <Footer />
