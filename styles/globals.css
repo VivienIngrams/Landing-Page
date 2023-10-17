@@ -8,3 +8,15 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+/* .gradient {
+  position: absolute;
+  width: 404px;
+  height: 800px;
+  left: 20%;
+  top: 5%;
+
+  background: rgba(22, 134, 61, 0.66);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+} */

@@ -1,8 +1,33 @@
-import React from 'react'
+'use client';
+
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+
+import styles from '@/styles';
+import { staggerContainer } from '@/utils/motion';
+import { TypingText } from '../components/CustomTexts';
+
 
 const Services : React.FC = () => {
+  // useState()
+
   return (
-    <div>Services</div>
+    <section className={`${styles.paddings}`} id="services">
+    <motion.div
+    variants={staggerContainer}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: false, amount: 0.25 }}
+    className={`${styles.innerWidth} mx-auto flex flex-col`}
+  >
+    <TypingText title="| Nossos serviços" textStyles="text-center" />
+   
+    <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+      
+    </div>
+  </motion.div>
+</section>
+
   )
 }
 

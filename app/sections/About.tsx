@@ -5,10 +5,11 @@ import { motion } from "framer-motion";
 import styles from "@/styles";
 import { fadeIn, staggerContainer } from "@/utils/motion";
 import {TypingText} from "../components/CustomTexts";
+import { HiArrowDown } from "react-icons/hi";
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10 font-normal sm:text-[32px] text-[20px] text-center text-neutral-600 text-secondary-white`}>
-    <div className="gradient-02 z-0" />
+    <div className=" z-0" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -38,12 +39,12 @@ const About = () => (
         animais de estimação, são parte da família!
       </motion.p>
 
-      <motion.img
-        variants={fadeIn("up", "tween", 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
+      <motion.div
+        variants={fadeIn("up", "tween", 0.8, 1)}
+        className="w-[18px] h-[28px] object-contain my-[28px]"
+      >
+        <HiArrowDown className="object-cover"/>
+      </motion.div>
     </motion.div>
   </section>
 );
