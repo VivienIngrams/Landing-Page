@@ -5,7 +5,8 @@ import { motion } from 'framer-motion';
 
 import { navVariants } from '@/utils/motion';
 import styles from '@/styles';
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
+import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 
 
 const Navbar: React.FC  = () => {
@@ -21,10 +22,10 @@ const Navbar: React.FC  = () => {
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-black">
+      <h2 className="font-bold text-[24px] leading-[30.24px] text-black">
         Tosquias e banhos
       </h2>
-      <AiOutlineMenu size={25} color="#4b5563" />
+      <HiOutlineMenuAlt3 size={25} color="#4b5563" />
       <AiOutlineClose size={25} color="#4b5563" />
     </div>
   </motion.nav>
