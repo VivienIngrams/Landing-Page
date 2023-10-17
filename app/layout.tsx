@@ -1,8 +1,11 @@
 import '/styles/globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { PT_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const pt_sans = PT_Sans({
+  subsets: ['latin'],
+  weight: '400'
+})
 
 export const metadata: Metadata = {
   title: 'Tosquias e banhos',
@@ -16,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt">
-      <body className={inter.className}>{children}</body>
+      <body className={pt_sans.className}>{children}</body>
     </html>
   )
 }

@@ -17,9 +17,8 @@ const Navbar: React.FC  = () => {
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} text-white py-3 first:relative`}
   >
-    <div className="absolute w-[50%] inset-0 gradient-01" />
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
@@ -28,9 +27,9 @@ const Navbar: React.FC  = () => {
             alt='Paw'
             height={30}
             width={30}
-            className='mx-2'
+            className='mb-4 mx-2'
             />
-      <h2 className="font-bold text-[24px] leading-[30.24px] text-black">
+      <h2 className="font-bold text-[24px] leading-[30.24px]">
         Cuidando os seus cães e gatos
       </h2>
       <HiOutlineMenuAlt3 size={25}  />

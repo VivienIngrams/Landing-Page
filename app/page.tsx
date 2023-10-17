@@ -8,7 +8,7 @@ import Contact from "./sections/Contact";
 import Instagram from "./sections/Instagram";
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className="bg-[#629d6a] overflow-hidden">
     <Navbar />
     <Hero />
     <div className="relative">
