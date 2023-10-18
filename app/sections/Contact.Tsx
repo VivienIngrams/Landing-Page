@@ -5,7 +5,7 @@ const Contact : React.FC = () => {
   return (
     <div>
       <h1>Contacto</h1>
-      <Maps />
+      <Maps  />
     </div>
   )
 }

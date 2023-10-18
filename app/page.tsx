@@ -7,24 +7,23 @@ import Reviews from "./sections/Reviews";
 import Contact from "./sections/Contact";
 import Instagram from "./sections/Instagram";
 
+
+
 const Page = () => (
+ 
   <div className="bg-[#629d6a] overflow-hidden">
     <Navbar />
     <Hero />
-    <div className="relative">
+ 
       <About />
-      <div className="gradient-03 z-0" />
       <Instagram />
-    </div>
-    <div className="relative">
       <Services />
-    </div>
-    <div className="relative">
+
       <Reviews />
-      <Contact/>
-    </div>
+      <Contact />
+
     <Footer />
-  </div>
+  </div> 
 );
 
 export default Page;

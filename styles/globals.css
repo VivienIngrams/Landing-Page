@@ -9,6 +9,14 @@
   scroll-behavior: smooth;
 }
 
+#__next {
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
+
 /* .gradient {
   position: absolute;
   width: 404px;
