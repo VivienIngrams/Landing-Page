@@ -15,9 +15,9 @@ const OpeningTimes: React.FC = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mt-20 mx-auto flex flex-col gap-8 justify-center items-center`}
+      className={`${styles.innerWidth} mx-auto flex flex-col gap-8 justify-center items-center`}
     >
-      <TypingText title="| Contacto" textStyles="text-center" />
+      <TypingText title="| Horários" textStyles="text-center" />
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="text-center text-neutral-600 text-lg"

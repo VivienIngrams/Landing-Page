@@ -38,13 +38,13 @@ const Hero = () => (
           className="object-cover w-full"
         />
         <a href="#services">
-          <div className=" flex justify-end sm:-mt-[70px] -mt-[30px] pr-[40px] relative z-10">
+          <div className=" flex justify-end  -mt-[50px] pr-[20px] relative z-10">
           <Image 
             src='/Paw.png'
             alt='Paw'
-            height={100}
-            width={100}
-            objectFit="fill"
+            height={70}
+            width={70}
+         
                      />
           </div>
         </a>
