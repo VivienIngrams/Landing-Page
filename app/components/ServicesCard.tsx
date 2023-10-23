@@ -26,14 +26,14 @@ const ExploreCard: React.FC<ExploreCardProps> = ({
   <motion.div
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className={`relative ${
-      active === id ? "lg:flex-[1.5] flex-[15]" : "lg:flex-[0.5] flex-[4]"
+      active === id ? "lg:flex-[1.5] flex-[15]" : "lg:flex-[0.5] flex-[5]"
     } flex m-1 items-center justify-center  transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
     <Image
       src={imgUrl}
       alt=""
-      height={500}
+      height={400}
       width={170}
       className="absolute w-full h-full object-cover overflow-hidden rounded-[24px]"
     />
@@ -42,7 +42,7 @@ const ExploreCard: React.FC<ExploreCardProps> = ({
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 pl-6 pb-2 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+      <div className="absolute bottom-0 pl-6 pb-2 flex justify-start w-full flex-col rounded-b-[24px]">
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism `}
         >
@@ -57,9 +57,9 @@ const ExploreCard: React.FC<ExploreCardProps> = ({
         <h2 className=" font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
-        <p className="font-normal text-[16px] leading-[20.16px] text-white">
+        <button className="font-bold text-left  uppercase   p-1 text-[16px] leading-[20.16px] text-white">
           Ver preços
-        </p>
+        </button>
       </div>
     )}
   </motion.div>

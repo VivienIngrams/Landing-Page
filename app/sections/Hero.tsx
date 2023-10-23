@@ -39,13 +39,13 @@ const Hero = () => (
         />
         <a href="#services">
           <div className=" flex justify-end sm:-mt-[70px] -mt-[30px] pr-[40px] relative z-10">
-            <Image 
+          <Image 
             src='/Paw.png'
             alt='Paw'
             height={100}
             width={100}
-            className="w-50 h-50 md:w-100 md:h-100"
-            />
+            objectFit="fill"
+                     />
           </div>
         </a>
       </motion.div>

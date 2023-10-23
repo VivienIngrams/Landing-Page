@@ -53,7 +53,7 @@ const Services: React.FC = () => {
       >
         <TypingText title="| Nossos serviços" textStyles="text-center" />
 
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[120vh] max-h-[160vh] gap-2">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[120vh] max-h-[180vh] md:min-h-[70vh]  gap-2">
           {services.map((world, index) => (
             <ServicesCard
               key={world.id}
