@@ -12,8 +12,7 @@ export const services = [
   {
     id: "serviço-1",
     imgUrl:
-      "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1888",
-    title: "Pedicure",
+"https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRvZ3N8ZW58MHx8MHx8fDA%3D",    title: "Pedicure",
   },
   {
     id: "serviço-2",
@@ -24,8 +23,7 @@ export const services = [
   {
     id: "serviço-3",
     imgUrl:
-      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nc3xlbnwwfHwwfHx8MA%3D%3D&w=500",
-    title: "Banhos",
+"https://images.unsplash.com/photo-1625316708582-7c38734be31d?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZ3N8ZW58MHx8MHx8fDA%3D",    title: "Banhos",
   },
   {
     id: "serviço-4",
@@ -35,14 +33,14 @@ export const services = [
   },
   {
     id: "serviço-5",
-    imgUrl: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2043",
-        title: "Para gatos",
+    imgUrl: 
+"https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGNoYXRzfGVufDB8fDB8fHww",        title: "Para gatos",
   },
   
 ];
 
 const Services: React.FC = () => {
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState("serviço-2");
 
   return (
     <section className={`${styles.paddings}`} id="services">
@@ -55,7 +53,7 @@ const Services: React.FC = () => {
       >
         <TypingText title="| Nossos serviços" textStyles="text-center" />
 
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[100vh] gap-2">
           {services.map((world, index) => (
             <ServicesCard
               key={world.id}
