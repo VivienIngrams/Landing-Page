@@ -19,14 +19,14 @@ const Contact: React.FC = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex  flex-col gap-8`}
+        className={`${styles.innerWidth} mx-auto flex flex-col gap-8 justify-center items-center`}
       >
         <TypingText title="| Contacto" textStyles="text-center" />
-        <div className="max-w-[1240px] flex flex-wrap">
-          <div className=" p-4 md:w-1/2 overflow-hidden" style={{ maxWidth: '544px' }}>
+        <div className="max-w-[1240px] mt-8 flex flex-col md:flex-row justify-center items-center w-full">
+          <div className="p-4 md:w-[50%]">
             <motion.p
               variants={fadeIn("up", "tween", 0.2, 1)}
-              className="flex justify-center flex-col"
+              className="flex justify-center flex-col text-center"
             >
               Banhos e Tosquias
               <br />
@@ -37,8 +37,7 @@ const Contact: React.FC = () => {
               +351 123 456 789
             </motion.p>
           </div>
-          <div className={`p-4 md:w-1/2 ${'md:flex-' + (window.innerWidth > 768 ? 'col' : 'row')}`}>
-
+          <div className="p-4  w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
             <Maps />
           </div>
         </div>
