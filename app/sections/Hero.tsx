@@ -16,11 +16,11 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex w-full justify-center items-center flex-col absolute z-10">
-        <motion.h1 variants={textVariant(1.1)} className="font-bold lg:text-[100px] md:text-[70px] sm:text-[40px] text-[30px]  uppercase">
+        <motion.h1 variants={textVariant(1.1)} className="font-bold lg:text-[100px] md:text-[70px] sm:text-[40px] text-[25px]  uppercase">
           Banhos e
         </motion.h1>
         <div  className="flex  justify-center">
-          <motion.h1   variants={textVariant(1.2)} className="font-bold lg:text-[100px] md:text-[70px] sm:text-[40px] text-[30px] uppercase">
+          <motion.h1   variants={textVariant(1.2)} className="font-bold lg:text-[100px] md:text-[70px] sm:text-[40px] text-[25px] uppercase">
             Tosquias
           </motion.h1>
 </div>
@@ -38,12 +38,13 @@ const Hero = () => (
           className="object-cover w-full"
         />
         <a href="#services">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
+          <div className=" flex justify-end sm:-mt-[70px] -mt-[30px] pr-[40px] relative z-10">
             <Image 
             src='/Paw.png'
             alt='Paw'
             height={100}
             width={100}
+            className="w-50 h-50 md:w-100 md:h-100"
             />
           </div>
         </a>

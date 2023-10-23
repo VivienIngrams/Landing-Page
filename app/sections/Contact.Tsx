@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
               variants={fadeIn("up", "tween", 0.2, 1)}
               className="flex justify-center flex-col text-center"
             >
-              Banhos e Tosquias
+             <span className="font-bold text-white">Banhos e Tosquias</span> 
               <br />
               Rua Imaginária 123
               <br />
@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
               +351 123 456 789
             </motion.p>
           </div>
-          <div className="p-4  w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
+          <div className="p-4 border-4 border-neutral-500 w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
             <Maps />
           </div>
         </div>

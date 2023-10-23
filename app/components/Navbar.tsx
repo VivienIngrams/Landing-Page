@@ -29,7 +29,7 @@ const Navbar: React.FC  = () => {
             width={30}
             className='mb-4 mx-2'
             />
-      <h2 className="font-bold text-[24px] leading-[30.24px]">
+      <h2 className="font-bold text-[22px] leading-[30.24px]">
         Cuidados para os nossos amigos animais
       </h2>
       <HiOutlineMenuAlt3 size={25}  />

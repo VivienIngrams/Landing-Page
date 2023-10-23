@@ -16,8 +16,8 @@ export default function Maps() {
 function Map() {
   const center = useMemo(() => ({ lat:41.165811 , lng: -8.603408 }), []);
   return (
-      <div className="w-full h-full absolute top-0 left-0">
-            <GoogleMap zoom={25} center={center} mapContainerClassName="w-full h-full absolute">
+      <div className="w-full h-full absolute top-0 left-0 border-4 border-neutral-500">
+            <GoogleMap zoom={15} center={center} mapContainerClassName="w-full h-full absolute ">
               <MarkerF position={{ lat:41.165811 , lng: -8.603408 }} />
             </GoogleMap>
           </div>
