@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
                            banhosetosquias@gmail.com
                         </motion.a>
           </div>
-          <div className="p-4 rounded-xl w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
+          <div className=" rounded-xl w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
             <Maps />
           </div>
         </div>

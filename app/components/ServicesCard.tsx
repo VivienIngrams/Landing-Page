@@ -6,22 +6,26 @@ import styles from "@/styles";
 import { fadeIn } from "../../utils/motion";
 import Image from "next/image";
 
-interface ExploreCardProps {
+interface ServicesCardProps {
   id: string;
   imgUrl: string;
   title: string;
   index: number;
   active: string;
+  prices: boolean;
   handleClick: (id: string) => void;
+  priceHandler: (prices: boolean) => void;
 }
 
-const ExploreCard: React.FC<ExploreCardProps> = ({
+const ServicesCard: React.FC<ServicesCardProps> = ({
   id,
   imgUrl,
   title,
   index,
   active,
+ prices,
   handleClick,
+  priceHandler,
 }) => (
   <motion.div
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -30,13 +34,16 @@ const ExploreCard: React.FC<ExploreCardProps> = ({
     } flex m-1 items-center justify-center  transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <Image
-      src={imgUrl}
-      alt=""
-      height={400}
-      width={170}
-      className="absolute w-full h-full object-cover overflow-hidden rounded-[24px]"
-    />
+    <div className="relative w-full h-full">
+      <Image
+        src={imgUrl}
+        alt=""
+        height={400}
+        width={170}
+        className="absolute w-full h-full object-cover overflow-hidden rounded-[24px]"
+      />{" "}
+      <div className="absolute w-full h-full bg-neutral-500 opacity-30 rounded-[24px]"></div>
+    </div>
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
         {title}
@@ -57,12 +64,25 @@ const ExploreCard: React.FC<ExploreCardProps> = ({
         <h2 className=" font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
-        <button className="font-bold text-left  uppercase   p-1 text-[16px] leading-[20.16px] text-white">
-          Ver preços
-        </button>
+        {prices === true ? (
+          <div className="flex flex-col gap-2 text-white text-lg m-2">
+            <div>Prices</div>
+            <div>Prices</div>
+            <div>Prices</div>
+            <div>Prices</div>
+            <div>Prices</div>
+          </div>
+        ) : (
+          <button
+            onClick={() => priceHandler(true)}
+            className="font-bold text-left  uppercase   p-1 text-[16px] leading-[20.16px] text-white"
+          >
+            Ver preços
+          </button>
+        )}
       </div>
     )}
   </motion.div>
 );
 
-export default ExploreCard;
+export default ServicesCard;

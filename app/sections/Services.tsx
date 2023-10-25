@@ -17,7 +17,7 @@ export const services = [
   {
     id: "serviço-2",
     imgUrl:
-      "https://images.unsplash.com/photo-1529472119196-cb724127a98e?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1944",
+      "https://plus.unsplash.com/premium_photo-1661951641996-3685492b78ed?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R29sZGVuJTIwcmV0cmlldmVyfGVufDB8MXwwfHx8MA%3D%3D",
     title: "Tosquias",
   },
   {
@@ -41,6 +41,7 @@ export const services = [
 
 const Services: React.FC = () => {
   const [active, setActive] = useState("serviço-2");
+  const [prices, setPrices] = useState(false); 
 
   return (
     <section className={`${styles.paddings}`} id="services">
@@ -60,7 +61,9 @@ const Services: React.FC = () => {
               {...world}
               index={index}
               active={active}
+              prices={prices}
               handleClick={setActive}
+              priceHandler={setPrices}
             />
           ))}
         </div>

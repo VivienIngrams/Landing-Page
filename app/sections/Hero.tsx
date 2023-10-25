@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import styles from "@/styles";
 import { fadeIn, slideIn, staggerContainer, textVariant } from "@/utils/motion";
-import { HiArrowDown } from "react-icons/hi";
+// import { HiArrowDown } from "react-icons/hi";
 
 const Hero = () => (
   <section className={`${styles.yPaddings} text-[#629d6a]`}>
@@ -16,7 +16,7 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="flex w-full justify-center items-center flex-col absolute z-10">
+      <a href='/#About' className="flex w-full justify-center items-center flex-col absolute z-10">
         <motion.h1 variants={textVariant(1.1)} className="font-normal lg:text-[100px] md:text-[70px] sm:text-[40px] text-[25px]  uppercase">
           Banhos e
         </motion.h1>
@@ -25,7 +25,7 @@ const Hero = () => (
             Tosquias
           </motion.h1>
 </div>
-      </div>
+      </a>
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
@@ -50,12 +50,12 @@ const Hero = () => (
           </div>
         </a>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("up", "tween", 0.8, 1)}
-        className="w-[18px] h-[28px] object-contain my-[28px] z-20"
+        className="w-[18px] h-[28px] object-contain my-[28px] z-30"
       >
         <HiArrowDown className="object-cover"/>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   </section>
 );
