@@ -13,7 +13,7 @@ import Link from "next/link";
 const Contact: React.FC = () => {
   return (
     <section
-      className={`${styles.paddings} mt-20 relative h-screen z-10 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600`}
+      className={`${styles.paddings} mt-20 relative h-full z-10 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600`}
     >
       <motion.div
         variants={staggerContainer}
@@ -35,10 +35,10 @@ const Contact: React.FC = () => {
               <br />
               4000-001 Porto
               <br />
-              +351 123 456 789
+             <span className="font-bold text-neutral-600">+351 123 456 789</span> 
             </motion.p>
             <motion.a  variants={fadeIn("up", "tween", 0.2, 1)}
-                         href="mailto:somebody@gmail.com" className="mb-2 flex flex-col items-center text-white space-x-2 text-sm ">
+                         href="mailto:somebody@gmail.com" className="mb-2 flex flex-col items-center underline space-x-2 text-sm md:text-xl py-2">
                            banhosetosquias@gmail.com
                         </motion.a>
           </div>

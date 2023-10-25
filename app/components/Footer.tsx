@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Footer: React.FC = () => {
   return (
     <footer>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center pt-12">
                 <div className=" flex space-x-4">
                  
                  <a
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         </a>
                 </div>
                 <div className="mb-2 flex flex-col items-center uppercase leading-10 text-white space-x-2 text-sm ">
-                Venha nos visitar
+                Venha visitar-nos
                             </div>
                 </div>
             </footer>

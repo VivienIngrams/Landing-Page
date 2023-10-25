@@ -15,12 +15,12 @@ const OpeningTimes: React.FC = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col gap-8 justify-center items-center`}
+      className={`${styles.innerWidth} mx-auto flex flex-col h-full mt-20 gap-8 justify-center items-center`}
     >
       <TypingText title="| Horários" textStyles="text-center" />
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="text-center text-neutral-600 text-lg"
+        className="text-center text-neutral-600 text-xl leading-loose my-20 md:my-4"
       >
         <span className="font-semibold text-white">Segunda-feira  </span> 09:00 - 0:00
         <br />

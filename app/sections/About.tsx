@@ -5,11 +5,10 @@ import { motion } from "framer-motion";
 import styles from "@/styles";
 import { fadeIn, staggerContainer } from "@/utils/motion";
 import {TypingText} from "../components/CustomTexts";
-import { HiArrowDown } from "react-icons/hi";
+
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600 text-secondary-white`}>
-    <div className=" z-0" />
+  <section className={`${styles.paddings} relative z-10 md:m-20 m-4 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600 text-secondary-white`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -31,20 +30,15 @@ const About = () => (
         <span className="font-extrabold text-white">
           gama completa de serviços de banho, tosa e tratamentos especiais
         </span>{" "}
-        para garantir que o seu animal de estimação se sinta e pareça incrível.
-        A nossa equipa de profissionais experientes e amantes de animais cuidará
-        do seu cão ou gato com carinho e atenção personalizada. O seu animal
+        para garantir que o seu animal de estimação se sinta e pareça incrível. A nossa equipa de profissionais experientes e amantes de animais 
+        <span className="font-extrabold text-white"> cuidará do seu cão ou gato </span>{" "}
+         com carinho e atenção personalizada. O seu animal
         merece o melhor, e é isso que lhe proporcionamos. Venha visitar-nos e
         deixe-nos mimar o seu companheiro peludo. Afinal, eles são mais do que
         animais de estimação, são parte da família!
       </motion.p>
 
-      <motion.div
-        variants={fadeIn("up", "tween", 0.8, 1)}
-        className="w-[18px] h-[28px] object-contain my-[28px]"
-      >
-        <HiArrowDown className="object-cover"/>
-      </motion.div>
+      
     </motion.div>
   </section>
 );
