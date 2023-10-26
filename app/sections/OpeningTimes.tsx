@@ -10,7 +10,7 @@ import styles from "../../styles";
 
 const OpeningTimes: React.FC = () => {
   return (
-    <motion.div
+    <motion.div id='OpeningTimes'
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"

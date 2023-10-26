@@ -9,7 +9,7 @@ import { TypingText } from "../components/CustomTexts";
 
 const Team: React.FC = () => {
   return (
-    <section className={`${styles.paddings}`} id="services">
+    <section className={`${styles.paddings}`} id="Team">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

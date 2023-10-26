@@ -8,11 +8,11 @@ import { motion } from "framer-motion";
 import styles from "../../styles";
 import { TypingText } from "../components/CustomTexts";
 import { staggerContainer, fadeIn, slideIn } from "../../utils/motion";
-import Link from "next/link";
+import ContactForm from "../components/ContactForm";
 
 const Contact: React.FC = () => {
   return (
-    <section
+    <section id="Contact"
       className={`${styles.paddings} mt-20 relative h-full z-10 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600`}
     >
       <motion.div
@@ -46,6 +46,8 @@ const Contact: React.FC = () => {
             <Maps />
           </div>
         </div>
+        <h1 className="text-white mt-6">Entre em contacto connosco...</h1>
+      <ContactForm/>
       </motion.div>
     </section>
   );

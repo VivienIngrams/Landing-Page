@@ -12,7 +12,8 @@ interface ServicesCardProps {
   title: string;
   index: number;
   active: string;
-  prices: boolean;
+  prices: string;
+  showPrices: boolean;
   handleClick: (id: string) => void;
   priceHandler: (prices: boolean) => void;
 }
@@ -23,7 +24,8 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
   title,
   index,
   active,
- prices,
+  prices,
+  showPrices,
   handleClick,
   priceHandler,
 }) => (
@@ -64,13 +66,9 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
         <h2 className=" font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
-        {prices === true ? (
-          <div className="flex flex-col gap-2 text-white text-lg m-2">
-            <div>Prices</div>
-            <div>Prices</div>
-            <div>Prices</div>
-            <div>Prices</div>
-            <div>Prices</div>
+        {showPrices === true ? (
+          <div className="flex flex-col max-w-[250px] gap-2 text-white text-lg m-2">
+            <div>{prices}</div>
           </div>
         ) : (
           <button

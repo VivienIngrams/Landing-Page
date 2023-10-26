@@ -8,7 +8,7 @@ import { fadeIn, slideIn, staggerContainer, textVariant } from "@/utils/motion";
 // import { HiArrowDown } from "react-icons/hi";
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} text-[#629d6a]`}>
+  <section id='Home' className={`${styles.yPaddings} text-[#629d6a]`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
