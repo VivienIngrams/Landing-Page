@@ -10,7 +10,6 @@ console.log(formData)
   
       const response = await fetch('/api', {
           method: 'post',     
-
           body: formData
       });
 
