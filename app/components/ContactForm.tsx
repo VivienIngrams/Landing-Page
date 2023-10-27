@@ -99,7 +99,7 @@ console.log(formData)
           rows={10}
         />
       </div>
-      <button type="submit" className="p-2 mt-4 rounded-xl border-2 border-neutral-500 text-sm text-white uppercase bg-[#9a3412]">
+      <button type="submit" className="p-2 mt-4 rounded-xl border-2 border-neutral-500 text-sm text-emerald-700  bg-neutral-300">
         Enviar mensagem
       </button>
     </form>

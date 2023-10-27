@@ -24,7 +24,7 @@ const Team: React.FC = () => {
             <div className=" text-2xl text-white ">
               Rita Bonita
             </div>
-            <div className="p-4  text-neutral-600">
+            <div className="p-4  text-neutral-700">
             Rita é uma valiosa integrante da nossa equipe de cuidados caninos. Com um profundo apreço pelos nossos amigos de quatro patas, ela desempenha um papel essencial no nosso serviço de banho e tosa. Com anos de experiência e um toque mágico com os animais, Rita torna cada ida ao nosso estabelecimento uma experiência agradável e relaxante para os nossos clientes peludos. Ela é especialmente habilidosa em penteados caninos e garante que cada cachorro saia do nosso serviço com estilo e confiança. 
             </div>
           </div>

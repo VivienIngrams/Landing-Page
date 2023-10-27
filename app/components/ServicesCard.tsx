@@ -36,7 +36,7 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
     } flex m-1 items-center justify-center  transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-full ">
       <Image
         src={imgUrl}
         alt=""

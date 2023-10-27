@@ -8,7 +8,7 @@ import {TypingText} from "../components/CustomTexts";
 
 
 const About = () => (
-  <section id='About' className={`${styles.paddings} relative z-10 md:m-20 m-4 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600 text-secondary-white`}>
+  <section id='About' className={`${styles.paddings} relative z-10 md:m-20 m-4 font-normal md:text-[26px] sm:text-[20px] text-[18px] text-center text-neutral-600 text-secondary-white`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

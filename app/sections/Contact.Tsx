@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 import styles from "../../styles";
 import { TypingText } from "../components/CustomTexts";
-import { staggerContainer, fadeIn, slideIn } from "../../utils/motion";
+import { staggerContainer, fadeIn } from "../../utils/motion";
 import ContactForm from "../components/ContactForm";
 
 const Contact: React.FC = () => {
@@ -31,14 +31,14 @@ const Contact: React.FC = () => {
             >
               <span className="font-bold text-white">Banhos e Tosquias</span>
               <br />
-              Rua Imaginária 123
+              Rua do Campo 13
               <br />
               4000-001 Porto
               <br />
-             <span className="font-bold text-neutral-600">+351 123 456 789</span> 
+             <span className="font-bold text-neutral-600">+351 123 001 789</span> 
             </motion.p>
             <motion.a  variants={fadeIn("up", "tween", 0.2, 1)}
-                         href="mailto:somebody@gmail.com" className="mb-2 flex flex-col items-center underline space-x-2 text-sm md:text-xl py-2">
+                         href="mailto:somebody@gmail.com" className="mb-2 flex flex-col items-center underline space-x-2 sm:text-[20px] md:text-xl py-2">
                            banhosetosquias@gmail.com
                         </motion.a>
           </div>
