@@ -5,8 +5,8 @@ import nodemailer from "nodemailer";
 // Handles POST requests to /api
 
 export async function POST(request) {
-  const username = process.env.NEXT_PUBLIC_USER;
-  const password = process.env.NEXT_PUBLIC_PASS;
+  const user = process.env.NEXT_PUBLIC_USER;
+  const pass = process.env.NEXT_PUBLIC_PASS;
 
   
   try {
@@ -25,8 +25,8 @@ export async function POST(request) {
       secure: true,
       tls : { rejectUnauthorized: false },
       auth: {
-        user: username,
-        pass: password,
+        user: user,
+        pass: pass,
       },
     });
 
