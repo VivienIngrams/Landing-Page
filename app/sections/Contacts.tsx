@@ -8,6 +8,7 @@ import styles from "../../styles";
 import { TypingText } from "../components/CustomTexts";
 import { staggerContainer, fadeIn } from "../../utils/motion";
 import ContactForm from "../components/ContactForm";
+import Maps from "../components/Maps";
 
 const Contacts = () => {
   return (
@@ -48,7 +49,7 @@ const Contacts = () => {
             </motion.a>
           </div>
           <div className=" rounded-xl w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
-            {/* <Maps /> */}
+            <Maps />
           </div>
         </div>
         <h1 className="text-white mt-6">Entre em contacto connosco...</h1>
