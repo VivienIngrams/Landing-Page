@@ -37,7 +37,7 @@ export const services = [
     imgUrl:
       "https://images.unsplash.com/photo-1568572933382-74d440642117?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZG9nc3xlbnwwfHwwfHx8MA%3D%3D&w=500.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nc3xlbnwwfHwwfHx8MA%3D%3D&w=500",
     title: "Tratamentos",
-    prices: "Limpeza dos ouvidos: 14,00€, Tosquia higienica: 16,00€ Brushing: de 12,50€ a 25,00€",
+    prices: "Limpeza dos ouvidos: 14,00€, Tosquia higienica: 16,00€, Brushing: de 12,50€ a 25,00€",
   },
   {
     id: "serviço-5",

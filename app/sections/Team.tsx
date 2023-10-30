@@ -22,10 +22,10 @@ const Team: React.FC = () => {
         <div className="max-w-[1240px] my-10 m-auto md:grid grid-cols-3 gap-8">
           <div className=" flex flex-col items-center justify-center col-span-2 font-pt">
             <div className=" text-2xl text-white ">
-              Rita Bonita
+              Rita Silva
             </div>
             <div className="p-4  text-neutral-700">
-            Rita é uma valiosa integrante da nossa equipe de cuidados caninos. Com um profundo apreço pelos nossos amigos de quatro patas, ela desempenha um papel essencial no nosso serviço de banho e tosa. Com anos de experiência e um toque mágico com os animais, Rita torna cada ida ao nosso estabelecimento uma experiência agradável e relaxante para os nossos clientes peludos. Ela é especialmente habilidosa em penteados caninos e garante que cada cachorro saia do nosso serviço com estilo e confiança. 
+            Rita tem um profundo apreço pelos nossos amigos de quatro patas, ela desempenha um papel essencial no nosso serviço de banho e tosa. Com anos de experiência e um toque mágico com os animais, Rita torna cada ida ao nosso estabelecimento uma experiência agradável e relaxante para os nossos clientes peludos. Ela é especialmente habilidosa em penteados caninos e garante que cada cachorro saia do nosso serviço com estilo e confiança. 
             </div>
           </div>
           <div className="md:h-full  px-20 md:p-10 m-auto bg-transparent flex justify-center items-center">

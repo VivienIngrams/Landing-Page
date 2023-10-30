@@ -22,7 +22,7 @@ const OpeningTimes: React.FC = () => {
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="text-center text-neutral-600 text-xl leading-loose my-20 md:my-4"
       >
-        <span className="font-semibold text-white">Segunda-feira  </span> 09:00 - 0:00
+        <span className="font-semibold text-white">Segunda-feira  </span> 09:00 - 20:00
         <br />
         <span className="font-semibold text-white">Terça-feira  </span> 09:00 - 20:00
         <br />
