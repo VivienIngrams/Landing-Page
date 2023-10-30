@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Maps from "../components/Maps";
+// import Maps from "../components/Maps";
 
 import { motion } from "framer-motion";
 
@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
                         </motion.a>
           </div>
           <div className=" rounded-xl w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
-            <Maps />
+            {/* <Maps /> */}
           </div>
         </div>
         <h1 className="text-white mt-6">Entre em contacto connosco...</h1>
