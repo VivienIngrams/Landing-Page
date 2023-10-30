@@ -6,16 +6,16 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import styles from "../../styles";
-import { TypingText } from "../components/CustomTexts";
-import { staggerContainer, fadeIn } from "../../utils/motion";
-import ContactForm from "../components/ContactForm";
+// import { TypingText } from "../components/CustomTexts";
+// import { staggerContainer, fadeIn } from "../../utils/motion";
+// import ContactForm from "../components/ContactForm";
 
 const Contact: React.FC = () => {
   return (
     <section id="Contact"
       className={`${styles.paddings} mt-20 relative h-full z-10 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600`}
     >
-      <motion.div
+      {/* <motion.div
         variants={staggerContainer( 0.2, 0.2)}
         initial="hidden"
         whileInView="show"
@@ -44,11 +44,11 @@ const Contact: React.FC = () => {
           </div>
           <div className=" rounded-xl w-full h-full min-h-[300px] min-w-[300px] md:w-[50%] md:h-auto relative aspect-auto">
             {/* <Maps /> */}
-          </div>
+          {/* </div>
         </div>
         <h1 className="text-white mt-6">Entre em contacto connosco...</h1>
       <ContactForm/>
-      </motion.div>
+      </motion.div> */} 
     </section>
   );
 };
