@@ -10,7 +10,7 @@ import {TypingText} from "../components/CustomTexts";
 const About = () => (
   <section id='About' className={`${styles.paddings} relative z-10 md:m-20 m-2 font-normal md:text-[26px] sm:text-[20px] text-[18px] text-center text-neutral-600 text-secondary-white`}>
     <motion.div
-      variants={staggerContainer}
+      variants={staggerContainer(0.2, 0.2)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}

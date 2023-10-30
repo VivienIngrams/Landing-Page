@@ -11,7 +11,7 @@ const Team: React.FC = () => {
   return (
     <section className={`${styles.paddings}`} id="Team">
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer( 0.2, 0.2)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
