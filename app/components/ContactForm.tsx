@@ -44,7 +44,7 @@ console.log(formData)
         </div>
         <div className="flex flex-col">
           <label htmlFor="phone" className="uppercase text-sm py-2">
-            Telefono
+            Telefone
           </label>
           <input
             id="phone"
@@ -74,7 +74,7 @@ console.log(formData)
       </div>
       <div className="flex flex-col py-2">
         <label htmlFor="subject" className="uppercase text-sm py-2">
-          Objeto
+          Assunto
         </label>
         <input
           id="subject"
