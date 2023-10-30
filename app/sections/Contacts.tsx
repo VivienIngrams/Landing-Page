@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import styles from "../../styles";
 import { TypingText } from "../components/CustomTexts";
 import { staggerContainer, fadeIn } from "../../utils/motion";
-// import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/ContactForm";
 
 const Contacts = () => {
   return (
@@ -52,7 +52,7 @@ const Contacts = () => {
           </div>
         </div>
         <h1 className="text-white mt-6">Entre em contacto connosco...</h1>
-        {/* <ContactForm/> */}
+        <ContactForm/>
       </motion.div>
     </section>
   );
