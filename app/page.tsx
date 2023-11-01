@@ -8,7 +8,7 @@ import Team from "./sections/Team";
 import OpeningTimes from "./sections/OpeningTimes";
 
 const Page = () => (
-  <div className="bg-emerald-600 overflow-hidden">
+  <div className="bg-indigo-800 overflow-hidden">
     <Navbar />
     <Hero />
     <About />
