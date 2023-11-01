@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Services from "./sections/Services";
-import Contacts from "./sections/Contacts";
+import Contact from "./sections/Contact";
 import Team from "./sections/Team";
 import OpeningTimes from "./sections/OpeningTimes";
 
@@ -13,7 +13,7 @@ const Page = () => (
     <Hero />
     <About />
     <Services />
-    <Contacts />
+    <Contact />
     <OpeningTimes />
     <Team />
     <Footer />

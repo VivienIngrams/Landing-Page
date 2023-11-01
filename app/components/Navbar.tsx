@@ -49,7 +49,7 @@ const Navbar: React.FC  = () => {
    <div
    className={
      nav
-       ? "fixed right-0 top-0 w-[50%] sm:w-[30%]  h-screen ease-in duration-500 bg-emerald-600 text-white z-50"
+       ? "fixed right-0 top-0 w-[50%] sm:w-[30%] tracking-widest h-screen ease-in duration-500 bg-emerald-600 text-white z-50"
        : "fixed right-[-150%] top-0 p-10 ease-in duration-500"
    }
  >
@@ -76,7 +76,7 @@ const Navbar: React.FC  = () => {
      <ul>
        <Link href="/">
          <li
-           className="p-5 text-sm uppercase hover:border-b"
+           className="py-5 text-sm uppercase hover:border-b"
            onClick={handleNav}
          >
            Home
@@ -84,7 +84,7 @@ const Navbar: React.FC  = () => {
        </Link>
        <Link href="/#About">
          <li
-           className="p-5 text-sm uppercase hover:border-b"
+           className="py-5 text-sm uppercase hover:border-b"
            onClick={handleNav}
          >
            About
@@ -92,7 +92,7 @@ const Navbar: React.FC  = () => {
        </Link>
        <Link href="/#Services">
          <li
-           className="p-5 text-sm uppercase hover:border-b"
+           className="py-5 text-sm uppercase hover:border-b"
            onClick={handleNav}
          >
           Services
@@ -101,7 +101,7 @@ const Navbar: React.FC  = () => {
        </Link>
        <Link href="/#Contact">
          <li
-           className="p-5 text-sm uppercase hover:border-b"
+           className="py-5 text-sm uppercase hover:border-b"
            onClick={handleNav}
          >
             Contacto
@@ -110,7 +110,7 @@ const Navbar: React.FC  = () => {
        </Link>
        <Link href="/#OpeningTimes">
          <li
-           className="p-3 text-sm uppercase hover:border-b"
+           className="py-5 text-sm uppercase hover:border-b"
            onClick={handleNav}
          >
           Horarios
@@ -119,7 +119,7 @@ const Navbar: React.FC  = () => {
        </Link>
        <Link href="/#Team">
          <li
-           className="p-3 text-sm uppercase hover:border-b"
+           className="py-5 text-sm uppercase hover:border-b"
            onClick={handleNav}
          >
       Nossa Equipa

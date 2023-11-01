@@ -8,7 +8,7 @@ import {TypingText} from "../components/CustomTexts";
 
 
 const About = () => (
-  <section id='About' className={`${styles.paddings} relative z-10 md:m-20 m-2 font-normal md:text-[26px] sm:text-[20px] text-[18px] text-center text-neutral-600 text-secondary-white`}>
+  <section id='About' className={`${styles.paddings} relative z-10 md:m-40 m-2 font-normal md:text-[26px] sm:text-[20px] text-[18px] text-center text-white h-screen`}>
     <motion.div
       variants={staggerContainer(0.2, 0.2)}
       initial="hidden"
@@ -23,15 +23,15 @@ const About = () => (
         className="mt-[8px] "
       >
         Seja
-        <span className="font-extrabold text-white"> bem-vindo</span> à nossa
+        <span className="font-extrabold"> bem-vindo</span> à nossa
         loja de serviços de cuidados para cães e gatos no coração de Porto!
         Aqui, dedicamo-nos ao bem-estar e à beleza dos seus amigos de quatro
         patas. Oferecemos uma{" "}
-        <span className="font-extrabold text-white">
+        <span className="font-extrabold">
           gama completa de serviços de banho, tosa e tratamentos especiais
         </span>{" "}
         para garantir que o seu animal de estimação se sinta e pareça incrível. A nossa equipa de profissionais experientes e amantes de animais 
-        <span className="font-extrabold text-white"> cuidará do seu cão ou gato </span>{" "}
+        <span className="font-extrabold"> cuidará do seu cão ou gato </span>{" "}
          com carinho e atenção personalizada. O seu animal
         merece o melhor, e é isso que lhe proporcionamos. Venha visitar-nos e
         deixe-nos mimar o seu companheiro peludo. Afinal, eles são mais do que

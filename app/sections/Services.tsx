@@ -53,7 +53,7 @@ const Services: React.FC = () => {
   const [showPrices, setShowPrices] = useState(false);
 
   return (
-    <section className={`${styles.paddings}`} id="Services">
+    <section className={`${styles.paddings} `} id="Services">
       <motion.div
         variants={staggerContainer(0.2, 0.2)}
         initial="hidden"

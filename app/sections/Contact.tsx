@@ -10,11 +10,11 @@ import { staggerContainer, fadeIn } from "../../utils/motion";
 import ContactForm from "../components/ContactForm";
 import Maps from "../components/Maps";
 
-const Contacts = () => {
+const Contact = () => {
   return (
     <section
       id="Contact"
-      className={`${styles.paddings} mt-20 relative h-full z-10 font-normal sm:text-[26px] text-[18px] text-center text-neutral-600`}
+      className={'mt-20 relative h-full z-10 font-normal sm:text-[26px] text-[18px] text-center text-white'}
     >
       <motion.div
         variants={staggerContainer(0.2, 0.2)}
@@ -28,15 +28,15 @@ const Contacts = () => {
           <div className="p-4 md:w-[50%]">
             <motion.p
               variants={fadeIn("up", "tween", 0.2, 1)}
-              className="flex justify-center flex-col text-center"
+              className="flex justify-center flex-col text-center text-xl"
             >
-              <span className="font-bold text-white">Banhos e Tosquias</span>
+              <span className="font-light text-white uppercase text-2xl">Banhos e Tosquias</span>
               <br />
               Rua do Campo 13
               <br />
               4000-001 Porto
               <br />
-              <span className="font-bold text-neutral-600">
+              <span className="font-bold italic tracking-widest p-4">
                 +351 123 001 789
               </span>
             </motion.p>
@@ -52,11 +52,11 @@ const Contacts = () => {
             <Maps />
           </div>
         </div>
-        <h1 className="text-white mt-6">Entre em contacto connosco...</h1>
+        <h1 className="text-white text-xl mt-16">Entre em contacto connosco...</h1>
         <ContactForm/>
       </motion.div>
     </section>
   );
 };
 
-export default Contacts;
+export default Contact;

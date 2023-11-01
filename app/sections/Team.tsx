@@ -9,7 +9,7 @@ import { TypingText } from "../components/CustomTexts";
 
 const Team: React.FC = () => {
   return (
-    <section className={`${styles.paddings}`} id="Team">
+    <section className={`${styles.paddings} text-white`} id="Team">
       <motion.div
         variants={staggerContainer( 0.2, 0.2)}
         initial="hidden"
@@ -19,12 +19,12 @@ const Team: React.FC = () => {
       >
         <TypingText title="| Nossa equipa" textStyles="text-center" />
 
-        <div className="max-w-[1240px] my-10 m-auto md:grid grid-cols-3 gap-8">
-          <div className=" flex flex-col items-center justify-center col-span-2 font-pt">
+        <div className="max-w-[1240px]  m-auto md:grid grid-cols-3 gap-8">
+          <div className=" flex flex-col items-center justify-center col-span-2 font-pt mt-8">
             <div className=" text-2xl text-white ">
               Rita Silva
             </div>
-            <div className="p-4  text-neutral-700">
+            <div className="p-4 ">
             Rita tem um profundo apreço pelos nossos amigos de quatro patas, ela desempenha um papel essencial no nosso serviço de banho e tosa. Com anos de experiência e um toque mágico com os animais, Rita torna cada ida ao nosso estabelecimento uma experiência agradável e relaxante para os nossos clientes peludos. Ela é especialmente habilidosa em penteados caninos e garante que cada cachorro saia do nosso serviço com estilo e confiança. 
             </div>
           </div>
@@ -39,12 +39,12 @@ const Team: React.FC = () => {
           </div>
         </div>
 
-        <div className="max-w-[1240px] my-10 m-auto md:grid grid-cols-3 gap-8">
-        <div className="flex md:hidden flex-col items-center justify-center col-span-2 font-pt">
+        <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="flex md:hidden flex-col items-center justify-center col-span-2 font-pt mt-8">
             <div className="pt-4  text-2xl text-white ">
              João Oliveira
             </div>
-            <div className="p-4  text-neutral-600">
+            <div className="p-4">
             João, o fundador do nosso negócio, é a raiz de toda a nossa paixão pelos cuidados caninos. A sua visão e amor inabalável pelos animais de estimação nos trouxeram até aqui. Desde o início, João estabeleceu um padrão excepcional de cuidado e carinho para todos os nossos amigos peludos. O seu compromisso em oferecer um ambiente seguro e acolhedor para os animais, bem como uma equipe qualificada, é o alicerce do nosso sucesso.
             </div>
           </div>
@@ -56,21 +56,21 @@ src="https://images.unsplash.com/photo-1644675272883-0c4d582528d8?auto=format&fi
               alt=""
             />
           </div>
-          <div className="hidden md:flex flex-col items-center justify-center col-span-2 font-pt">
+          <div className="hidden md:flex flex-col items-center justify-center col-span-2 font-pt mt-4">
             <div className="pt-4  text-2xl text-white ">
              João Oliveira
             </div>
-            <div className="p-4  text-neutral-600">
-            João, o fundador do nosso negócio, é a raiz de toda a nossa paixão pelos cuidados caninos. A sua visão e amor inabalável pelos animais de estimação nos trouxeram até aqui. Desde o início, João estabeleceu um padrão excepcional de cuidado e carinho para todos os nossos amigos peludos. O seu compromisso em oferecer um ambiente seguro e acolhedor para os animais, bem como uma equipe qualificada, é o alicerce do nosso sucesso. João é o coração e a alma da nossa empresa, e a sua dedicação contínua nos inspira a servir cada cliente canino com a mais alta qualidade de serviço e amor incondicional.
+            <div className="p-4 ">
+            João, o fundador do nosso negócio, é a raiz de toda a nossa paixão pelos cuidados caninos. A sua visão e amor inabalável pelos animais de estimação nos trouxeram até aqui. Desde o início, João estabeleceu um padrão excepcional de cuidado e carinho para todos os nossos amigos peludos. O seu compromisso em oferecer um ambiente seguro e acolhedor para os animais, bem como uma equipe qualificada, é o alicerce do nosso sucesso.
             </div>
           </div>
         </div>
-        <div className="max-w-[1240px] my-10 m-auto md:grid grid-cols-3 gap-8">
-          <div className=" flex flex-col items-center justify-center col-span-2 font-pt">
+        <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+          <div className=" flex flex-col items-center justify-center col-span-2 font-pt mt-8">
             <div className="pt-4 text-2xl text-white ">
               Maria Ferreira
             </div>
-            <div className="p-4  text-neutral-600">
+            <div className="p-4">
             Maria é uma funcionária dedicada em nosso serviço de banho e tosa para cães. Com um amor profundo por animais e anos de experiência, ela assegura que cada cachorro receba tratamento especial e carinho durante a sua visita. Maria é expert em estilização canina e está comprometida em manter os animais com aparência impecável e saudável.
             </div>
           </div>
